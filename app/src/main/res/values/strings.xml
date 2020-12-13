@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PersistentBottomSheet</string>
+    <string name="expand">Expanded</string>
+    <string name="collapse">Collapse..</string>
+    <string name="dragging">Dragging</string>
+    <string name="hidden">Hidden</string>
+    <string name="settling">Settling</string>
+    <string name="halfexpand">Half expanded</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expand"
+            android:background="@color/black"/>
+        <Button
+            android:id="@+id/collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collapse"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"/>
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="state"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+<include layout="@layout/bottom_sheet"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
